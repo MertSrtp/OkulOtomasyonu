@@ -15,10 +15,10 @@ namespace OkulOtomasyonu
     public partial class Mesaj_Gonder_Ogrenci : Form
     {
         // Sabit gönderici mail bilgileri (örneğin kurumsal bir e-posta adresi)
-        private const string SenderEmail = "saritopmert7@gmail.com"; // Gönderen kurumsal mail adresi
-        private const string SenderPassword = "jxby eats dwjv igcd"; // Şifrenizi buraya yazın
-        private const string SmtpServer = "smtp.gmail.com"; // SMTP sunucusu (Gmail için)
-        private const int SmtpPort = 587; // SMTP portu (Gmail için)
+        private const string SenderEmail = ""; // Gönderen kurumsal mail adresi
+        private const string SenderPassword = ""; // Şifrenizi buraya yazın
+        private const string SmtpServer = ""; // SMTP sunucusu (Gmail için)
+        private const int SmtpPort = ; // SMTP portu (Gmail için)
         public Mesaj_Gonder_Ogrenci()
         {
             InitializeComponent();
